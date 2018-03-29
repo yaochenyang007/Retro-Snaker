@@ -1,0 +1,135 @@
+html, body{
+	margin:0;
+	padding:0;
+}
+.bGround{
+	width:700px;
+	height:500px;
+	background:url("../images/bk.jpg") no-repeat;
+	padding:80px 60px;
+	margin:5px 5px;
+	position:fixed;
+}
+.score{
+    position:absolute;
+    top:38px;
+    left:630px;
+    font-size: 50px;
+    color:#FDF900;
+    font-weight: bold;
+    height:50px;
+    line-height: 20px;
+    text-align: center;
+    text-shadow:2px 2px #AD2349;
+    opacity: 0.9;
+}
+.div-box{
+	width:600px;
+	height:360px;
+	position: relative;
+}
+.scoreBox{
+	width:500px;
+	margin: 20px auto;
+	color: #666;
+	font-size: 25px;
+	font-weight: bold;
+}
+.div-head{
+	width: 20px;
+	height:20px;
+	border: 1px solid #4A8E29;
+	background-color: #4A8E29;
+	position: absolute;
+	top:200px;
+	left:200px;
+	box-sizing:border-box;
+}
+.head-Img{
+   position: relative;
+   top:-2px;
+
+}
+.snake{
+	width: 20px;
+	height:20px;
+	border: 1px solid #4A8E29;
+	position: absolute;
+	background:url(../images/body.jpg) no-repeat;
+}
+.egg{
+	width: 20px;
+	height:20px;
+	border: 1px solid #4A8E29;
+	position: absolute;
+	background-color:#666;
+	background:url(../images/egg.jpg) no-repeat;
+}
+.myAlert-bk{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	background-color: black;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+}
+.myAlert{
+	width:300px;
+	height:200px;
+	background-color: #fff;
+	font-size: 20px;
+	text-align: center;
+	line-height: 35px;
+	border:2px solid blue;
+	position:fixed;
+	top:105px;
+	left:240px;
+	border-radius: 3px;
+	display: none;
+}
+.myAlert-title{
+	border-bottom:3px solid #c7c7c7;
+	width:100%;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+}
+.myAlert-content{
+   width:296px;
+   height:100px;
+   border-bottom:3px solid #c7c7c7;
+   text-align: left;
+   color:#666; 
+   padding-left:5px;
+}
+.myAlert-btn{
+   width: 10%;
+   height: 300px;
+}
+.myAlert-btn-ok{
+	width:60px;
+	height:20px;
+	line-height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+	float: right;
+	border:3px solid #c7c7c7;
+	border-radius: 4px;
+	margin:10px -250px;
+}
+.myAlert-btn-ok:hover{
+	cursor: pointer;
+	color:#333;
+	border:3px solid #908e8e;
+
+}
+.reStart{
+	margin:5px 5px;
+	position: absolute;
+	top:500px;
+}
